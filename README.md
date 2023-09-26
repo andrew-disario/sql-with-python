@@ -3,7 +3,8 @@
 <img src="https://github.com/andrew-disario/sql-with-python/blob/main/sql_python_pandas%20logo.png?raw=true" height="65%" width="65%" alt="sql_python_pandas"/>
 <br />
 In this project, we work with database tables using Python, Pandas and SQL. Using Pandas' ".read_sql(  )" method we can run SQL queries on existing database tables. Then, using Python and Pandas, we can work with the data as dataframes. Finally, using Pandas' method ".to_sql(  )" we can replace or append the existing tables with out modified dataframes.
-<h2>Querying data with .read_sql(  )</h2>
+
+<h2>Part I - Querying data with .read_sql(  )</h2>
 
 <b> Create connection using SQLAlchemy </b>
   1. Import libraries
@@ -35,7 +36,7 @@ df = pd.read_sql(query, engine)
 df
 ```
 
-<h2>Writing data with .to_sql(  ) </h2>
+<h2>Part II - Writing data with .to_sql(  ) </h2>
 
 <b> Work with dataframe using Pandas and Python </b>
   1. Modify dataframe to change Maxwell's ID from 3 to 4
