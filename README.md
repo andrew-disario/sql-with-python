@@ -38,7 +38,7 @@ df
 <h2>Writing data with .to_sql(  ) </h2>
 
 <b> Work with dataframe using Pandas and Python </b>
-  1. Modify data to change ID = 3 to ID = 4
+  1. Modify dataframe to change Maxwell's ID from 3 to 4
 ```
 df['id'][2] = 4
 ```
