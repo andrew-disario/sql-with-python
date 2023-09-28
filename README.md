@@ -1,4 +1,4 @@
-<h1>SQL with Python</h1>
+<h1>Work with Data Tables in Python with SQLAlchemy</h1>
 <p align="center">
 <img src="https://github.com/andrew-disario/sql-with-python/blob/main/sql_python_pandas%20logo.png?raw=true" height="65%" width="65%" alt="sql_python_pandas"/>
 <br />
